@@ -17,6 +17,7 @@ let g:LanguageClient_serverCommands = {
     \ 'javascript.jsx': ['tcp://127.0.0.1:2089'],
     \ 'typescript': ['typescript-language-server', '--stdio'],
     \ 'ruby': ['~/.rbenv/shims/solargraph', 'stdio'],
+    \ 'dart': ['dart' ,'$DART_SDK/snapshots/analysis_server.dart.snapshot'],
     \ }
 
 augroup LanguageClient_config
