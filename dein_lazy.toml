@@ -314,3 +314,8 @@ let g:go_metalinter_autosave = 1
 let g:go_template_autocreate = 0
 '''
 
+[[plugins]]
+repo = 'posva/vim-vue'
+hook_add = '''
+source ~/.config/nvim/plugins/vim-vue.rc.vim
+'''
