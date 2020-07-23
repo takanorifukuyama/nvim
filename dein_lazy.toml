@@ -319,3 +319,9 @@ repo = 'posva/vim-vue'
 hook_add = '''
 source ~/.config/nvim/plugins/vim-vue.rc.vim
 '''
+
+[[plugins]]
+repo = 'alvan/vim-closetag'
+hook_add = '''
+source ~/.config/nvim/plugins/vim-closetag.rc.vim
+'''
