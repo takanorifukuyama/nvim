@@ -296,5 +296,21 @@ repo = 'dart-lang/dart-vim-plugin'
 [[plugins]]
 repo = 'thosakwe/vim-flutter'
 hook_source = '''
+source ~/.config/nvim/plugins/vim_flutter.vim
 let g:hot_reload_on_save=1
 '''
+
+[[plugins]]
+repo = 'peitalin/vim-jsx-typescript'
+
+[[plugins]]
+repo = 'leafgarland/typescript-vim'
+
+[[plugins]]
+repo = 'fatih/vim-go'
+hook_add = '''
+let g:go_fmt_command = "goimports"
+let g:go_metalinter_autosave = 1
+let g:go_template_autocreate = 0
+'''
+
