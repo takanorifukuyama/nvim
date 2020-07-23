@@ -38,6 +38,7 @@ let g:LanguageClient_serverStderr = expand('~/.local/share/nvim/LanguageServer.l
 
 let g:LanguageClient_autoStart = 1
 let g:LanguageClient_autoStop = 1
+let g:LanguageClient_loadSettings=1
 nnoremap <silent> [Space]h :call LanguageClient_textDocument_hover()<CR>
 nnoremap <silent> [Space]d :call LanguageClient_textDocument_definition()<CR>
 nnoremap <silent> [Space]r :call LanguageClient_textDocument_rename()<CR>
