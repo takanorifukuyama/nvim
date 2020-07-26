@@ -13,7 +13,7 @@ endfunction
 
 autocmd CompleteDone * silent! pclose!
 
-
+call deoplete#custom#source('neosnippet', 'rank', 600)
 call deoplete#custom#source('tabnine', 'rank', 500)
 call deoplete#custom#source('tabnine', 'min_pattern_length', 2)
 " call deoplete#custom#source('tabnine', 'is_volatile', v:false)
