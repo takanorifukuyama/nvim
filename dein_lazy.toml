@@ -320,3 +320,13 @@ hook_add = '''
 source ~/.config/nvim/plugins/vim-vue.rc.vim
 '''
 
+[[plagins]]
+repo = 'tyru/open-browser.vim'
+hook_add = '''
+let g:openbrowser_browser_commands = [ {'name': 'google-chrome-stable',  'args': ['{browser}', '{uri}']} ]
+'''
+
+[[plugins]]
+repo = 'iamcco/markdown-preview.nvim'
+on_ft = [ 'markdown', 'pandoc.markdown', 'rmd' ]
+build = 'sh -c "cd app & yarn install" '
