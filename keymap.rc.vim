@@ -1,3 +1,6 @@
+inoremap <C-h> <Left>
+inoremap <C-l> <Right>
+
 inoremap jj <Esc>
 tnoremap <Esc> <C-\><C-n>
 autocmd BufNewFile,BufRead *.py nnoremap <C-e> :!python %
