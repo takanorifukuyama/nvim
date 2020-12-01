@@ -21,6 +21,7 @@ let g:LanguageClient_serverCommands = {
     \ 'ruby': ['~/.rbenv/shims/solargraph', 'stdio'],
     \ 'dart': ['dart' ,'$DART_SDK/snapshots/analysis_server.dart.snapshot'],
     \ 'go': ['gopls'],
+    \ 'terraform': ['terraform-lsp']
     \ }
 
 augroup LanguageClient_config

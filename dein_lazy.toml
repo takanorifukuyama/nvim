@@ -320,6 +320,21 @@ hook_add = '''
 source ~/.config/nvim/plugins/vim-vue.rc.vim
 '''
 
+[[plugins]]
+repo = 'prettier/vim-prettier'
+build = 'npm install'
+on_ft = ['javascript', 'typescript', 'vue', 'css', 'scss', 'json', 'markdown']
+hook_add = '''
+source ~/.config/nvim/plugins/vim-prettier.rc.vim
+'''
+
+[[plugins]]
+repo = 'vim-syntastic/syntastic'
+hook_add = '''
+source ~/.config/nvim/plugins/syntastic.rc.vim
+'''
+
+# markdown preview plugins
 [[plagins]]
 repo = 'tyru/open-browser.vim'
 hook_add = '''
